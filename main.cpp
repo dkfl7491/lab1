@@ -12,7 +12,7 @@ int main() {
     cin >> shirina;
     
     if (dlina <= 0 || shirina <= 0) {
-        cout << "Error" << endl;
+        cout << "Error: such rectangle does not exist" << endl;
         return 0;
     }
     
